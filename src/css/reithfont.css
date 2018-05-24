@@ -1,0 +1,48 @@
+@font-face {
+  font-family: 'ReithSans';
+  src: url('../fonts/ReithSans/ReithSans_W_Rg.woff');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'ReithSans';
+  src: url('../fonts/ReithSans/ReithSans_W_Lt.woff');
+  font-weight: 300;
+  font-style: normal;
+ }
+@font-face {
+  font-family: 'ReithSans';
+  src: url('../fonts/ReithSans/ReithSans_W_Bd.woff');
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'ReithSans';
+  src: url('../fonts/ReithSans/ReithSans_W_ExBd.woff');
+  font-weight: 900;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'ReithSerif';
+  src: url('../fonts/ReithSerif/ReithSerif_W_Lt.woff');
+  font-weight: 300;
+  font-style: normal;
+ }
+@font-face {
+  font-family: 'ReithSerif';
+  src: url('../fonts/ReithSerif/ReithSerif_W_Rg.woff');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'ReithSerif';
+  src: url('../fonts/ReithSerif/ReithSerif_W_Bd.woff');
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'ReithSerif';
+  src: url('../fonts/ReithSerif/ReithSerif_W_ExBd.woff');
+  font-weight: 900;
+  font-style: normal;
+}
