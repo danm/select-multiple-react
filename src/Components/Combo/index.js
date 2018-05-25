@@ -50,9 +50,16 @@ class App extends Component {
   saveUpdate() {
     this.ref.focus();
     const selected = this.state.temporaryOptions.filter(r=>r.checked);
-    this.setState({
-      value: `${selected.length} Selected`,
-    })
+    if (selected.length === 1) {
+      this.setState({
+        value: selected[0].label,
+      })
+    } else {
+      this.setState({
+        value: `${selected.length} Selected`,
+      })
+    }
+    
     this.props.onChange(this.state.temporaryOptions);
   }
 
@@ -69,9 +76,7 @@ class App extends Component {
 
   handleKillMenu() {
     this.props.onClick();
-    this.setState({
-      temporaryOptions: this.state.options,
-    });
+    this.saveUpdate();
   }
 
   handleKeyDown(e) {
